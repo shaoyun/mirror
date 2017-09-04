@@ -53,8 +53,7 @@
     "lib/",
     "docs/",
     "README.md",
-    "LICENSE",
-    "src/"
+    "LICENSE"
   ],
   "jest": {
     "modulePaths": [
