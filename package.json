@@ -1,6 +1,6 @@
 {
-  "name": "mirrorx",
-  "version": "0.2.7",
+  "name": "react-native-mirror",
+  "version": "0.2.8",
   "description": "A React framework with minimal API and zero boilerplate.",
   "scripts": {
     "test": "jest",
@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:shaoyun/mirror.git"
+    "url": "git@github.com:shaoyun/react-native-mirror.git"
   },
   "license": "MIT",
   "dependencies": {
