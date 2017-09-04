@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import {Provider} from 'react-redux'
 
 import {options} from './defaults'
@@ -38,8 +37,6 @@ export default function render(component, container, callback) {
   }
 
   started = true
-
-  global.document && ReactDOM.render(<Root/>, container, callback)
-
+  
   return Root
 }

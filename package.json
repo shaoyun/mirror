@@ -23,21 +23,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:mirrorjs/mirror.git"
+    "url": "git@github.com:shaoyun/mirror.git"
   },
   "license": "MIT",
   "dependencies": {
     "history": "^4.6.1",
     "prop-types": "^15.5.10",
     "react-redux": "^5.0.0",
-    "react-router": "^4.1.1",
-    "react-router-dom": "^4.1.1",
-    "react-router-redux": "^5.0.0-alpha.6",
     "redux": "^3.6.0"
   },
   "peerDependencies": {
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0"
+    "react": "^15.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.14.1",
@@ -52,7 +48,6 @@
     "eslint-plugin-react": "^7.1.0",
     "jest": "^20.0.4",
     "react": "^15.0.0",
-    "react-dom": "^15.0.0",
     "webpack": "^3.4.0"
   },
   "files": [

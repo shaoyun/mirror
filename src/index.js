@@ -1,5 +1,3 @@
-import {Route, Redirect, Switch, Prompt, withRouter} from 'react-router'
-import {Link, NavLink} from 'react-router-dom'
 import {connect} from 'react-redux'
 import model from './model'
 import {actions} from './actions'
@@ -15,13 +13,4 @@ module.exports = {
   defaults,
   connect,
   render,
-
-  Router,
-  Route,
-  Link,
-  NavLink,
-  Switch,
-  Redirect,
-  Prompt,
-  withRouter
 }

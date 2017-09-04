@@ -4,17 +4,14 @@ import {
   combineReducers,
   compose
 } from 'redux'
-import {routerMiddleware, routerReducer} from 'react-router-redux'
 
 import createMiddleware from './middleware'
-import {getHistory} from './router'
 
 export let store
 
 export function createStore(models, initialState, middlewares = []) {
 
   const middleware = applyMiddleware(
-    routerMiddleware(getHistory()),
     ...middlewares,
     createMiddleware()
   )
@@ -54,7 +51,6 @@ function createReducer(models) {
 
   return combineReducers({
     ...reducers,
-    routing: routerReducer
   })
 
 }
